@@ -1,0 +1,202 @@
+body,html{
+	position: relative;
+	background-color: #0abde3;
+}
+h1{
+	margin: 20px auto;
+}
+article{
+	font-size: 18px;
+	background-color: #0abde3;
+}
+p {
+	font-size: 18px;
+	padding: 50px;
+	margin-bottom: 0;
+}
+a{
+	color: #2d2d30;
+}
+ol{
+	list-style: none;
+}
+ul{
+	list-style: none;
+	font-size: 18px;
+	text-align: center;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+footer{
+	position: relative;
+	background-color: #2d2d30;
+	color: #009432;
+	opacity: 0.9;
+}
+.sessao{
+	background-color: #0abde3;
+	padding: 50px 20px;
+}
+.row{
+	padding: 20px;
+	margin: 0;
+	background-color: #0abde3;
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.col-sm-4{
+	background-color: #0abde3;
+}
+.column{
+	float: left;
+	width: 25%;
+	padding: 0 10px;
+}
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+	padding: 16px;
+	transition: 0.3s;
+	text-align: center;
+	background-color: #f1f1f1;
+	border-radius: 5px;
+}
+.card:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+}
+
+@media screen and (max-width: 600px){
+	.col-sm-4{
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+}
+.affix{
+	top:0;
+	width: 100%;
+	z-index:9999 !important;
+}
+.container{
+	height: 100%;
+	padding: 0;
+	margin: auto;
+}
+#nandodev{
+	background-color: transparent;
+	border:5px solid #009432;
+	border-radius: 25px;
+	padding: 10px;
+	text-align: center;
+}
+#nome,#profissao{
+	color:#009432;
+	padding: 5px;
+	font-size: 30px;
+}
+#logo{
+	width: 207px;
+	height: 40px;
+	border-radius: 5px;
+}
+#col-apresentacao{
+	background-color: transparent;
+	margin-bottom: 0;
+}
+#apresentacao{
+	background-image: url(../img/fundo-1.jpg);
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 50px;
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#quem-sou{
+	background-attachment: fixed;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#competencias{
+	padding-left: 0;
+	padding-right: 0;
+	background-attachment: fixed;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+#projetos{
+	background-image: url(../img/fundo-4.jpg);
+	padding-bottom: 300px;
+	background-attachment: fixed;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#contato{
+	padding-left: 0;
+	padding-right: 0;
+	background-attachment: fixed;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*
+@media only screen and (max-device-width: 1024px) {
+	#quem-sou,#competencias,#projetos,#contato{
+	background-attachment: scroll;
+	}
+}
+*/
+.nav-tabs li a {
+	color: #777;
+}
+.navbar {
+	font-family: Montserrat, sans-serif;
+	margin-bottom: 0;
+	background-color: #2d2d30;
+	border: 0;
+	border-radius: 0;
+	font-size: 15px !important;
+	letter-spacing: 4px;
+	opacity: 0.9;
+}
+.navbar li a, .navbar .navbar-brand { 
+	color: #d5d5d5 !important;
+}
+.navbar-nav li a:hover {
+	color: #009432 !important;
+}
+.navbar-nav li.active a {
+	color: #009432 !important;
+	background-color: #29292c !important;
+}
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+.navbar-brand{
+	padding-top:5px;
+}
+/*
+#app{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+*/
+#contatos{
+	display: inline;
+	background-color: #fff;
+	padding-left: 0;
+	padding-right: 0;
+	border-radius: 5px;
+}
+#email,#linkedin,#github,#whatsapp{
+	padding: 0;
+}
